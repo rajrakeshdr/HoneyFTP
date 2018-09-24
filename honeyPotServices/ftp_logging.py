@@ -3,7 +3,7 @@ import os
 
 #if the file is not created create IT
 
-LOG_LOCATION = '/home/ftp/logs/ftp.log'
+LOG_LOCATION = '/opt/HoneyFTP/logs/ftp.log'
 f1 = open(LOG_LOCATION,'a+')
 
 Lines=f1.readlines()
