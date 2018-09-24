@@ -9,7 +9,7 @@ from pyftpdlib.authorizers import DummyAuthorizer
 from handlers import FTPHandler
 from pyftpdlib.servers import FTPServer
 
-BASE_LOCATION = "/home/ftp/"
+BASE_LOCATION = "/opt/HoneyFTP/"
 FTP_DIRECTORY = BASE_LOCATION + "drive"
 
 if __name__ == "__main__":
