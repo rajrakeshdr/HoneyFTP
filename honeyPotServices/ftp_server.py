@@ -42,7 +42,7 @@ if __name__ == "__main__":
 
 	handler.banner = s
 
-	logging.basicConfig(filename=BASE_LOCATION+'logs/ftp.log', level=logging.INFO)
+	logging.basicConfig(filename=BASE_LOCATION+'logs/ftp.log', level=logging.DEBUG)
 	handler.log_prefix = '[%(username)s]@%(remote_ip)s'
 	address = ('',21)
 	server = FTPServer(address, handler)
