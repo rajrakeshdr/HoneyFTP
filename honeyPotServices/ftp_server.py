@@ -10,7 +10,7 @@ from handlers import FTPHandler
 from pyftpdlib.servers import FTPServer
 
 BASE_LOCATION = "/opt/HoneyFTP/"
-FTP_DIRECTORY = BASE_LOCATION + "drive"
+FTP_DIRECTORY = BASE_LOCATION + "ftpDrive"
 
 if __name__ == "__main__":
 
